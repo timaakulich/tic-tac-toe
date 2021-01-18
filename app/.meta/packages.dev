@@ -1,0 +1,9 @@
+-r ./packages
+
+async-asgi-testclient==1.4.5
+async_generator==1.10
+pytest==6.2.1
+pytest-asyncio==0.14.0
+flake8-quotes==3.2.0
+tox==3.21.1
+isort==5.7.0
