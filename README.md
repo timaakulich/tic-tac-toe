@@ -17,6 +17,7 @@
 
 For the authorization use:
 ```-H  "Authorization: Bearer <token from (2)>"```
+
 3. Get all players games - http://127.0.0.1:5555/docs#/game/get_games_v1_games__get
 4. Start new game - http://127.0.0.1:5555/docs#/game/create_game_v1_games__post
 5. Get game information - http://127.0.0.1:5555/docs#/game/get_game_v1_games__game_id__get
