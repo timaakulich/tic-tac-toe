@@ -19,7 +19,7 @@ For the authorization use:
 ```-H  "Authorization: Bearer <token from (2)>"```
 
 3. Get all players games - http://127.0.0.1:5555/docs#/game/get_games_v1_games__get
-4. Start new game - http://127.0.0.1:5555/docs#/game/create_game_v1_games__post
+4. Start new game - http://127.0.0.1:5555/docs#/game/create_game_v1_games__post (```You can provide game size and win rule```  )
 5. Get game information - http://127.0.0.1:5555/docs#/game/get_game_v1_games__game_id__get
 6. Get all moves http://127.0.0.1:5555/docs#/game/get_moves_v1_games__game_id__moves__get
 7. Do move http://127.0.0.1:5555/docs#/game/create_move_v1_games__game_id__moves__post
