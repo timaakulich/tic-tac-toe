@@ -25,4 +25,11 @@ For the authorization use:
 7. Do move http://127.0.0.1:5555/docs#/game/create_move_v1_games__game_id__moves__post
 
 # PS:
-Run tests, flake8, isort - ```tox```
+Run tests, flake8, isort
+```
+
+virtualenv env -p python3.8
+source env/bin/activate
+pip install -r app/.meta/packages.dev
+tox
+```
